@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>TODO-API</title>
+</head>
+<body class="u-montserrat">
+
+  <div class="app u-mglx-xl u-mgtop-md">
+    <header class="main--header">
+      <h2>TODO LIST</h2>
+      <input class="input-box" type="text" placeholder="Inserisci un elemento...">
+      <button class="btn btn__add-item">ADD</button>
+    </header>
+
+    <main class="main--content u-mgtop-md">
+     
+    </main>
+    
+  </div>
+
+
+  <script id="todo__template" type="text/x-handlebars-template">
+    <ul class="list-container" data-id= "{{ id }}">
+      <li class="item"> {{ text }} 
+        <button class="btn btn__remove">X</button>
+      </li>
+    </ul>
+  </script>
+
+
+  
+  <!-- HANDLEBARS -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js'></script>
+  <!-- jQuery -->
+  <script 
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+  </script>
+  <!-- My JS -->
+  <script src="script/main.js"></script>
+</body>
+</html>

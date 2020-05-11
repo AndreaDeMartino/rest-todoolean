@@ -1,0 +1,44 @@
+/* General Rules */
+
+
+/* Utility */
+.btn{
+  height: 20px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: .8;
+  transition: opacity;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.btn__add-item{
+  background: #ccc;
+}
+
+.btn__remove{
+  background: red;
+  color: white;
+}
+
+/* App */
+.app{
+  width: 400px;
+}
+
+/* HEADER */
+input{
+  width: 200px;
+}
+/* MAIN */
+li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  width: 200px;
+  border-bottom: 1px solid #ccc;
+}
